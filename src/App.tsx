@@ -154,8 +154,8 @@ function App() {
               <strong className="text-[#1ac05d]">+{CurrencyFormatter(Math.floor(tax_40() * (vipSelected == "VIP" ? 0.1 : 0.2)))}</strong>
             </li>
             <li className="gap-1" style={{display: pcDiscount ? "flex" : "none"}}>
-              PC 10
-              <strong className="text-[#1ac05d]">+{CurrencyFormatter(Math.floor(tax_40() * (vipSelected == "VIP" ? 0.1 : 0.2)))}</strong>
+              PC 10%
+              <strong className="text-[#1ac05d]">+{CurrencyFormatter(Math.floor(tax_40() * 0.1))}</strong>
             </li>
             <li className="gap-1" style={{ display: !couponSelected ? "none" : "flex" }}>
               Coupon ({couponSelected}%)
