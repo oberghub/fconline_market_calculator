@@ -69,7 +69,7 @@ function App() {
             value={price}
             className="outline-none text-lg bg-[#e4e4e2] p-2 rounded font-bold"
             onChange={(e) => {
-              setPrice(e.target.value);
+              setPrice(parseInt(e.target.value));
             }}
             type="number"
           />
