@@ -229,7 +229,7 @@ function App() {
           <div className="flex w-full gap-2 justify-between items-center bg-white shadow-md p-4 rounded-[20px]">
             <div className="flex gap-2">
               <div className="bg-gray-800 py-1 px-2 rounded-[10px] select-none">
-                <p className="text-[#68cfe3] font-bold">IGR</p>
+                <p className="text-[#68cfe3] font-bold">PC</p>
               </div>
               <div className="bg-gray-800 py-1 px-2 rounded-[10px] select-none">
                 <p className="text-white font-bold">10%</p>
@@ -239,7 +239,7 @@ function App() {
             </div>
         </div>
         <div className="relative w-full select-none flex justify-center items-center h-16 bg-[#D8D9D9]">
-          <p className="text-2xl font-bold">Transfer Marketto</p>
+          <p className="text-2xl font-bold">Transfer Market</p>
           <button className=" absolute top-4 left-4 p-2 bg-[#07f468] rounded-[10px]" onClick={addPlayer}>
           <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M13.5 6.99969C13.5 7.41531 13.1656 7.74969 12.75 7.74969H7.75V12.7497C7.75 13.1637 7.41406 13.5 7 13.5C6.58594 13.5 6.25 13.1653 6.25 12.7497V7.74969H1.25C0.835938 7.74969 0.5 7.41406 0.5 7C0.5 6.58719 0.835938 6.24969 1.25 6.24969H6.25V1.24969C6.25 0.835625 6.58594 0.5 7 0.5C7.41406 0.5 7.75 0.835625 7.75 1.24969V6.24969H12.75C13.1656 6.24969 13.5 6.58719 13.5 6.99969Z" fill="black"/>
